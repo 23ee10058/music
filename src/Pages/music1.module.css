@@ -1,0 +1,85 @@
+.display{
+    height: 570px;
+    width: 1060px;
+   border: 1px solid ;
+    position: absolute;
+    border-radius: 6px;
+    background-color: rgb(200,200,200);
+    transform: translate(-750px,-215px);
+}
+.pic{
+    width: 1060px;
+    height: 500px;
+}
+.audio{
+    width: 750px;
+    background-color: rgb(200,200,200); 
+    transform: translate(16px);
+    
+}
+
+.aud_icon{
+    display: flex;
+    transform: translate(30px)
+}
+.forward{
+    transform: translate(30px,10px);
+    color: black;
+}
+.shuffle{
+    transform: translate(70px,10px);
+}
+.playlist{
+    transform: translate(0px,0px);  
+}
+.backward{
+    transform: translate(0px,10px);
+    color: black;
+}
+.playbut{
+    transform: translate(90px,-0px); 
+   height: 50px;
+   border: none;
+   background-color: rgb(200,200,200);
+}
+.container{
+    display: flex;
+    
+
+}
+.container1{
+    position: absolute;
+    transform: translate(310px,-215px);
+    border:2px solid  ;
+    width: 450px;
+    background-color: rgb(150,150,150);
+    border-radius: 10px;
+    
+    
+
+}
+.list{
+list-style-type: none;
+max-height: 500px;
+overflow-y: scroll;
+}
+.head{
+    border-bottom: 2px solid;
+}
+#list{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    background-color: rgb(210,210,210);
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+}
+#list:hover{
+    background-color: aliceblue;
+}
+#sing{
+    font-size: 13px;
+    transform: translate(0px,-12px);
+    font-weight: 300;
+}

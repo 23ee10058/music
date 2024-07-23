@@ -1,0 +1,15 @@
+.header{
+    border: 1px solid;
+    position: absolute;
+    transform: translate(-760px,-360px);
+    width: calc(98rem - 35px);
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(120,120,120);
+    
+}
+#head{
+    transform: translate(0,30px);
+    color: whitesmoke;
+}

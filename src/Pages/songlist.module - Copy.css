@@ -1,0 +1,33 @@
+.container{
+    position: absolute;
+    transform: translate(-750px,-214px);
+   
+    background-color: rgb(180,180,180);
+    max-height: 600px;
+    overflow-y: scroll;
+}
+.item_table{
+   
+    width: 95rem;
+    table-layout: fixed;
+   
+    font-size: 20px;
+    
+    font-family: sans-serif;
+    
+}
+.body1{
+    max-height: 300px;
+    overflow: scroll;
+}
+.row{
+    border-bottom: 3px solid;
+}
+.row1{
+    background-color: rgb(220,220,220);
+    cursor: pointer;
+    border-bottom: 2px solid white ;
+}
+.row1:hover{
+    background-color: rgb(290,290,290);
+}
